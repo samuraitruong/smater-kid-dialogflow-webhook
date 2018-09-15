@@ -1,0 +1,34 @@
+{
+  "name": "smarter-kid-fulfilment-webhook",
+  "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Truong Nguyen",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "8"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment",
+    "build": "./node_modules/.bin/tslint -p . && ./node_modules/.bin/tsc"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "dialogflow": "^0.1.0",
+    "dialogflow-fulfillment": "^0.4.1",
+    "firebase": "^5.5.0",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.9.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
