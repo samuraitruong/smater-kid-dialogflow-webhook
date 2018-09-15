@@ -1,9 +1,13 @@
+import { ConfirmationYesHandler } from "./confirmation-yes-handler";
 import { FailbackIntentHandler } from "./fallback-handler";
 import { NumberIntentHandler } from "./number-intent-handler";
+import { RepeatIntentHandler } from "./repeat-intent-handler";
 import { WelcomeHandler } from "./welcome-handler";
 
 export const handlers = [
-    new WelcomeHandler("Default Welcome Intent"),
-    new FailbackIntentHandler("Default Fallback Intent"),
-    new NumberIntentHandler("Number Intent"),
+    new WelcomeHandler(),
+    new FailbackIntentHandler(),
+    new NumberIntentHandler(),
+    new ConfirmationYesHandler(),
+    new RepeatIntentHandler(),
 ];

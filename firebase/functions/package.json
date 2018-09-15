@@ -10,9 +10,9 @@
     "node": "8"
   },
   "scripts": {
-    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
-    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment",
-    "build": "./node_modules/.bin/tslint -p . && ./node_modules/.bin/tsc"
+    "start": "npm run build && firebase serve --only functions:smarterKidFulfilmentWebHook",
+    "deploy": "npm run build && firebase deploy --only functions:smarterKidFulfilmentWebHook",
+    "build": "tslint -p . && tsc"
   },
   "dependencies": {
     "actions-on-google": "^2.2.0",
