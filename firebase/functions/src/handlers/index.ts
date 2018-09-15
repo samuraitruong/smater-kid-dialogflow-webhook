@@ -1,4 +1,5 @@
 import { ConfirmationYesHandler } from "./confirmation-yes-handler";
+import { ExitIntentHandler } from "./exit-handler.";
 import { FailbackIntentHandler } from "./fallback-handler";
 import { NumberIntentHandler } from "./number-intent-handler";
 import { RepeatIntentHandler } from "./repeat-intent-handler";
@@ -10,4 +11,5 @@ export const handlers = [
     new NumberIntentHandler(),
     new ConfirmationYesHandler(),
     new RepeatIntentHandler(),
+    new ExitIntentHandler(),
 ];
