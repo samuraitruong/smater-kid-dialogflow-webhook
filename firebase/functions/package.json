@@ -12,7 +12,8 @@
   "scripts": {
     "start": "npm run build && firebase serve --only functions:smarterKidFulfilmentWebHook",
     "deploy": "npm run build && firebase deploy --only functions:smarterKidFulfilmentWebHook",
-    "build": "tslint -p . && tsc"
+    "build": "tslint -p . && tsc && npm run copy",
+    "copy": "cd src && copyfiles ./**/*.json ../lib/ && cd .."
   },
   "dependencies": {
     "actions-on-google": "^2.2.0",
@@ -20,7 +21,8 @@
     "dialogflow-fulfillment": "^0.4.1",
     "firebase": "^5.5.0",
     "firebase-admin": "^6.0.0",
-    "firebase-functions": "^2.0.5"
+    "firebase-functions": "^2.0.5",
+    "i18next": "^11.9.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",
@@ -29,6 +31,7 @@
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "tslint": "^5.11.0",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "copyfiles": "^2.1.0"
   }
 }

@@ -13,6 +13,6 @@ export class ExitIntentHandler extends BaseIntentHandler implements IIntentHandl
     public handle(agent: WebhookClient) {
         const conv: DialogflowConversation = agent.conv(); // Get Actions on Google library conv instance
         const body: GoogleCloudDialogflowV2WebhookRequest = conv.body as GoogleCloudDialogflowV2WebhookRequest;
-        conv.tell("Goodbye, Have a nice day");
+        conv.close("Goodbye, Have a nice day");
     }
 }
