@@ -1,0 +1,27 @@
+[debug] [2018-09-16T14:17:19.042Z] ----------------------------------------------------------------------
+[debug] [2018-09-16T14:17:19.047Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\samur\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --port 4000 --only functions:smarterKidFulfilmentWebHook
+[debug] [2018-09-16T14:17:19.048Z] CLI Version:   4.2.1
+[debug] [2018-09-16T14:17:19.048Z] Platform:      win32
+[debug] [2018-09-16T14:17:19.048Z] Node Version:  v10.4.0
+[debug] [2018-09-16T14:17:19.050Z] Time:          Mon Sep 17 2018 00:17:19 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2018-09-16T14:17:19.050Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-16T14:17:19.076Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-16T14:17:19.077Z] > authorizing via signed-in user
+[debug] [2018-09-16T14:17:19.082Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/smarter-kid  
+ 
+[debug] [2018-09-16T14:17:20.372Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-16T14:17:20.375Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/smarter-kid  
+ 
+[debug] [2018-09-16T14:17:21.897Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'c:\Projects\smartkids\firebase'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-16T14:17:23.407Z] Fetching environment
+[debug] [2018-09-16T14:17:23.411Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/940146793606:getServerAppConfig  
+ 
+[debug] [2018-09-16T14:17:24.149Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-16T14:17:24.150Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-16T14:17:26.730Z] Parsing function triggers
+[info] +  functions: smarterKidFulfilmentWebHook: http://localhost:4000/smarter-kid/us-central1/smarterKidFulfilmentWebHook
