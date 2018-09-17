@@ -1,9 +1,0 @@
-{
-    "welcome": "aaaaaaaaaaaaaaaaaaaa",
-    "welcomeIntent": {
-        "welcome": {
-            "speech": "Hello, Welcome to Smart Kid quiz <break time=\"500ms\" />. Are you ready to test how smart you are?",
-            "text": "Hello, Welcome to Smart Kid quiz.\n Are you ready to test how smart you are?"
-        }
-    }
-}

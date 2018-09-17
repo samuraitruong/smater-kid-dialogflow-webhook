@@ -1,3 +1,4 @@
 export const TEMPLATES = {
-  FIRST_WELCOME: "message.welcome",
+  FIRST_WELCOME: "welcomeIntent.welcome",
+  RETURN_WELCOME: "welcomeIntent.welcomeBack",
 };

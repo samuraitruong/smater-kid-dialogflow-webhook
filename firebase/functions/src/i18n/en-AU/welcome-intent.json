@@ -1,0 +1,10 @@
+{
+    "welcome": {
+        "speech": "Hello, Welcome to Smart Kid quiz <break time=\"500ms\" />. Are you ready to test how smart you are?",
+        "text": "Hello, Welcome to Smart Kid quiz.\n Are you ready to test how smart you are?"
+    },
+    "welcomeBack": {
+        "speech": "Hello, Welcome to Smart Kid quiz <break time=\"500ms\" />. You best result was level: {{bestLevel}}. Do you think you getting smarter?",
+        "text": "Hi Welcome back to Smart Kid quiz!. Your best result was level: {{bestLevel}}.\nDo you think you getting smarter?"
+    }
+}

@@ -1,7 +1,7 @@
-import * as messsages from "./messages.json";
+import * as welcomeIntent from "./welcome-intent.json";
 
 export const enAU = {
     translation: {
-        messsages,
+        welcomeIntent,
     },
 };
