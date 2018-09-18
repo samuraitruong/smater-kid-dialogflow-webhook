@@ -10,6 +10,7 @@ export class WelcomeHandler extends BaseIntentHandler implements IIntentHandler 
         super(Intents.WELCOME);
     }
     public handle(agent: WebhookClient) {
+        console.log("nnnnnnnnnnnnnnnnnn");
         super.preHandle(agent);
         const conv: DialogflowConversation = agent.conv();
         const storage = conv.user.storage as any;

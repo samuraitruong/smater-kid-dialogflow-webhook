@@ -1,7 +1,7 @@
-import { WebhookClient } from "dialogflow-fulfillment";
-import { Intents } from "../models/enums";
-import { BaseIntentHandler } from "./base-intent-handler";
-export class FailbackIntentHandler extends BaseIntentHandler {
+import {WebhookClient} from "dialogflow-fulfillment";
+import {Intents} from "../models/enums";
+import {BaseIntentHandler} from "./base-intent-handler";
+export class FallbackIntentHandler extends BaseIntentHandler {
     constructor() {
         super(Intents.FALLBACK);
     }
