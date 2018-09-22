@@ -4,7 +4,7 @@ console.log("resource", JSON.stringify(enAU, null, 3));
 // tslint:disable-next-line:variable-name
 let _i18n;
 i18next.init({
-  debug: true,
+  debug: false,
   lng: "en-AU",
   resources: {
     "en-AU": enAU,

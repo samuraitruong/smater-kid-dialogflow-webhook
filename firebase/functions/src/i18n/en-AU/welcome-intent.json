@@ -1,10 +1,14 @@
 {
     "welcome": {
-        "speech": "Hello, Welcome to Smart Kid quiz <break time=\"500ms\" />. Are you ready to test how smart you are?",
-        "text": "Hello, Welcome to Smart Kid quiz.\n Are you ready to test how smart you are?"
+        "speech": "Hello, Welcome to Smarter Kid quiz <break time=\"500ms\" />. Are you ready to test how smart you are?",
+        "text": "Hello, Welcome to Smarter Kid quiz.\n Are you ready to test how smart you are?"
     },
     "welcomeBack": {
-        "speech": "Hello, Welcome to Smart Kid quiz <break time=\"500ms\" />. You best result was level: {{bestLevel}}. <break time=\"500ms\" />Do you think you getting smarter?",
-        "text": "Hi Welcome back to Smart Kid quiz!. Your best result was level: {{bestLevel}}.\nDo you think you getting smarter?"
+        "speech": "Hello, Welcome to Smarter Kid quiz <break time=\"500ms\" />. You best result was level: {{bestLevel}}. <break time=\"500ms\" />Do you think you getting smarter?",
+        "text": "Hi Welcome back to Smarter Kid quiz!. Your best result was level: {{bestLevel}}.\nDo you think you getting smarter?"
+    },
+    "welcomeConfirmYes": {
+        "speech": "Okay, Lets beat the best level this time! <break time=\"500ms\" />. Please tell me what is {{left}} {{operator}} {{right}} = ",
+        "text": "Okay, Lets beat the best level this time!.\n Please tell me what is {{left}} {{operator}} {{right}} = "
     }
 }

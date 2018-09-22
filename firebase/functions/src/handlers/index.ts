@@ -7,7 +7,7 @@ import {WelcomeHandler} from "./welcome-handler";
 
 export const handlers = [
     new WelcomeHandler(), new FallbackIntentHandler(), new NumberIntentHandler(),
-    // new ConfirmationYesHandler(),
+    new ConfirmationYesHandler(),
     new RepeatIntentHandler(),
     new ExitIntentHandler(),
 ];

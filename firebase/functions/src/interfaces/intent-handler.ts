@@ -1,5 +1,6 @@
-import { WebhookClient } from "dialogflow-fulfillment";
+import {WebhookClient} from "dialogflow-fulfillment";
+import {Intents} from "../models/enums";
 export interface IIntentHandler {
-    intentName: string;
+    intentNames: Intents[];
     handle(agent: WebhookClient);
 }

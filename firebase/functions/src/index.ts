@@ -10,9 +10,10 @@ export const smarterKidFulfilmentWebHook: (request, response) => void = function
         // JSON.stringify(request.headers)); console.log("Dialogflow Request body: " +
         // JSON.stringify(request.body));
         const intentMap = new Map();
-        // intentMap.set('Default Welcome Intent', welcome); handlers.forEach((h) =>
-        handlers.forEach((h) => intentMap.set(h.intentName, h.handle.bind(h)));
-        // handlers.forEach(({intentName, handle}) => intentMap.set(intentName,
-        // handle));
+        handlers.forEach((h) => {
+            h
+                .intentNames
+                .forEach((intentName) => intentMap.set(intentName, h.handle.bind(h)));
+        });
         agent.handleRequest(intentMap);
     });
