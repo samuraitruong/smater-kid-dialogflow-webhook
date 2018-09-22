@@ -1,0 +1,18 @@
+{
+    "correct": {
+        "speech": "Great!, Your anwser is correct. <break time=\"500ms\" /> Here is your next challenge, what is {{left}} {{operator}} {{right}} = ",
+        "text": "Great!, Your anwser is correct. \nHere is your next challenge, what is {{left}} {{operator}} {{right}} = "
+    },
+    "incorrect": {
+        "speech": "Your anwser: {{providedNumber}} is incorrect, please try again. <break time=\"500ms\" /> what is {{left}} {{operator}} {{right}} = ",
+        "text": "Your anwser: {{providedNumber}} is not correct, please try again.\nWhat is {{left}} {{operator}} {{right}} = "
+    },
+    "failed": {
+        "speech": "Sorry!, You have anwsered 4 times wrong. <break time=\"500ms\" /> The quiz has been ended, Good luck next time, Your best level is: {{level}}. See you next time.",
+        "text": "Sorry!, You have anwsered 4 times wrong. The quiz has been ended, Good luck next time, Your best level is: {{level}}. See you next time."
+    },
+    "notStarted": {
+        "speech": "Sorry!, Your quiz hasn't start yet. <break time=\"500ms\" /> Would you want to start?",
+        "text": "Sorry!, Your quiz hasn't start yet, Would you want to start?."
+    }
+}

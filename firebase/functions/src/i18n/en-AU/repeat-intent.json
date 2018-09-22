@@ -1,0 +1,16 @@
+{
+    "correct": {
+        "speech": "What is {{left}} {{operator}} {{right}} = ",
+        "text": "What is {{left}} {{operator}} {{right}} = "
+    },
+    "incorrect": {
+        "speech": "What is {{left}} {{operator}} {{right}} = ",
+        "text": "What is {{left}} {{operator}} {{right}} = "
+    },
+    "failed": {
+        "speech": "What is {{left}} {{operator}} {{right}} = ",
+        "text": "What is {{left}} {{operator}} {{right}} = "
+    }
+
+
+}
