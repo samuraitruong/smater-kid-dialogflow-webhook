@@ -1,6 +1,5 @@
 import * as i18next from "i18next";
 import {enAU} from "./en-AU/index";
-console.log("resource", JSON.stringify(enAU, null, 3));
 // tslint:disable-next-line:variable-name
 let _i18n;
 i18next.init({
